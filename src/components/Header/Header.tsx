@@ -12,7 +12,6 @@ const Header = () => {
         <S.LogoWrapper>
           <Logo />
         </S.LogoWrapper>
-        <S.MenuContainer></S.MenuContainer>
         <S.MenuContainer>
           <S.MenuItems>
             <S.MenuItem>

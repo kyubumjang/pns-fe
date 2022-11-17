@@ -2,20 +2,24 @@ import styled from '@emotion/styled';
 
 export const HeaderContainer = styled.nav`
   display: flex;
-  align-items: center;
-  justify-content: center;
   width: 100%;
   height: 60px;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid transparent;
+  left: 0;
+  transition: background-color 0.2s ease;
+  z-index: 50;
 `;
 
 export const InnerContainer = styled.div`
   display: flex;
-  width: 92%;
-  height: 100%;
   align-items: center;
-  margin: 0 auto;
+  width: 70%;
+  height: 100%;
   max-width: calc(100% - 42px)
   min-height: 60px;
+  margin: 0 auto;
 `;
 
 export const LogoWrapper = styled.div`
@@ -24,37 +28,39 @@ export const LogoWrapper = styled.div`
 
 export const MenuContainer = styled.div`
   display: flex;
-  flex: 1;
-  overflow-y: hidden;
-  justify-content: space-between;
+  justify-content: flex-end;
+  width: 100%;
   max-height: 100%;
+  overflow-y: hidden;
 `;
 
 export const MenuItems = styled.ul`
   display: flex;
   align-items: center;
-  padding: 0;
+  width: 100%:
+  min-width: 500px;
   margin: 0;
+  padding: 0;
+  overflow: hidden;
 `;
 
 export const MenuItem = styled.li`
   display: flex;
-  height: 100%;
   align-items: center;
+  font-size: 15px;
   padding: 0 8px;
   color: ${(props) => props.theme.color.grey700};
-  font-size: 15px;
 
   a {
-    padding: 12px 10px;
-    font-size: 15px;
-    line-height: 20px;
-    color: currentColor;
-    border-radius: ${(props) => props.theme.borderRadius};
-    border: 0;
     cursor: pointer;
-    background-color: transparent;
+    word-break: keep-all;
+    white-space: nowrap;
     text-align: left;
+    line-height: 20px;
+    font-size: 15px;
+    padding: 12px 10px;
+    background-color: transparent;
+    border-radius: ${(props) => props.theme.borderRadius};
     &:hover {
       background-color: ${(props) => props.theme.color.grey100};
     }
