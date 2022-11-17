@@ -6,9 +6,7 @@ import Header from '@/components/Header/Header';
 const Home: NextPage = () => {
   return (
     <div>
-      <Header />
       <h1>Part and Solution</h1>
-      <Footer />
     </div>
   );
 };
