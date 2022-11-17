@@ -21,10 +21,11 @@ const globalStyles = css`
       system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo',
       'Noto Sans KR', 'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji',
       'Segoe UI Symbol', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    word-break: keep-all;
+    word-wrap: break-word;
   }
 `;
 
