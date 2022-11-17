@@ -69,6 +69,21 @@ const reset = css`
   th {
     padding: 0;
   }
+  ol,
+  ul,
+  li {
+    list-style: none;
+    text-decoration: none;
+  }
+  button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+  }
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
 `;
 
 export default reset;
