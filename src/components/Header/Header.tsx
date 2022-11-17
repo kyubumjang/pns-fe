@@ -10,7 +10,9 @@ const Header = () => {
     <S.HeaderContainer>
       <S.InnerContainer>
         <S.LogoWrapper>
-          <Logo />
+          <Link href='/'>
+            <Logo />
+          </Link>
         </S.LogoWrapper>
         <S.MenuContainer>
           <S.MenuItems>

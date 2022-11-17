@@ -24,6 +24,7 @@ export const InnerContainer = styled.div`
 
 export const LogoWrapper = styled.div`
   display: flex;
+  cursor: pointer;
 `;
 
 export const MenuContainer = styled.div`
