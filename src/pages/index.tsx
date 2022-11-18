@@ -1,12 +1,14 @@
 import type { NextPage } from 'next';
 
 import { Button } from '@/components/Button/Button.styles';
+import Text from '@/components/Text/Text';
 
 const Home: NextPage = () => {
   return (
     <div
       style={{
         display: 'flex',
+        flexDirection: 'column',
         width: '100%',
         justifyContent: 'center',
         alignItems: 'center',
@@ -14,21 +16,21 @@ const Home: NextPage = () => {
         padding: '8px',
       }}
     >
-      <h1>Part and Solution</h1>
-      <Button
-        width='110px'
-        height='40px'
+      <Text tag='h1'>콜렛의 모든 것 P&S에서 쉽고 빠르게</Text>
+      <Text tag='h2'>콜렛의 모든 것 P&S에서 쉽고 빠르게</Text>
+      <Text tag='h3'>콜렛의 모든 것 P&S에서 쉽고 빠르게</Text>
+      <Text tag='h4'>콜렛의 모든 것 P&S에서 쉽고 빠르게</Text>
+      <Text tag='h5'>콜렛의 모든 것 P&S에서 쉽고 빠르게</Text>
+      <Text tag='h6'>콜렛의 모든 것 P&S에서 쉽고 빠르게</Text>
+      <Text tag='p'>콜렛의 모든 것 P&S에서 쉽고 빠르게</Text>
+      <Text tag='span'>콜렛의 모든 것 P&S에서 쉽고 빠르게</Text>
+      <Text
+        fontSize='10px'
+        fontWeight='bold'
+        color='grey'
       >
-        자세히 알아보기
-      </Button>
-      <Button buttonTheme='grey'>grey 버튼</Button>
-      <Button buttonTheme='weakBlue'>weakBlue 버튼</Button>
-      <Button
-        outline
-        height='42px'
-      >
-        outline 버튼
-      </Button>
+        콜렛의 모든 것 P&S에서 쉽고 빠르게
+      </Text>
     </div>
   );
 };
