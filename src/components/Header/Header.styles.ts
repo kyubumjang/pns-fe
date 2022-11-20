@@ -2,12 +2,14 @@ import styled from '@emotion/styled';
 
 export const HeaderContainer = styled.nav`
   display: flex;
+  position: fixed;
   width: 100%;
   height: 60px;
   align-items: center;
   justify-content: center;
   border-bottom: 1px solid transparent;
   left: 0;
+  background-color: ${(props) => props.theme.color.white};
   transition: background-color 0.2s ease;
   z-index: 50;
 `;
