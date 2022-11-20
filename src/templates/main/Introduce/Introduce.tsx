@@ -25,7 +25,6 @@ const Introduce = () => {
           <S.SloganInnerContainer>
             <Text tag='h1'>콜렛 제작</Text>
             <Text tag='h1'>P&S에서 쉽고 빠르게</Text>
-
             <S.SloganBtnContainer>
               <Link href='/prepare'>
                 <S.LinkContentWrapper>
@@ -49,15 +48,12 @@ const Introduce = () => {
         </S.SloganContentContainer>
       </S.SloganContainer>
       <S.DescriptionContainer>
-        <Text
-          fontSize='32px'
-          fontWeight={700}
-          color='#191f28'
-        >
+        <Text tag='p'>
           콜렛 주문 제작 서비스를 자세히 확인하고 원하는 치수로 쉽고 빠르게
-          주문하세요. 이제껏 경험 못했던 쉽고 편리한 콜렛 주문 서비스, Part and
-          Solution에서 주문해서 빠르게 받아보세요.
+          주문하세요.
         </Text>
+        <Text tag='p'>이제껏 경험 못했던 쉽고 편리한 콜렛 주문 서비스,</Text>
+        <Text tag='p'>Part and Solution에서 주문해서 빠르게 받아보세요.</Text>
       </S.DescriptionContainer>
     </S.IntroduceContainer>
   );

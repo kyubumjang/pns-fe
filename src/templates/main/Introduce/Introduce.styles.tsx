@@ -127,10 +127,11 @@ export const BtnWrapper = styled('div')(
 export const DescriptionContainer = styled('div')(
   {
     display: 'flex',
+    flexDirection: 'column',
     alignItems: 'center',
     justifyContent: 'flex-start',
     textAlign: 'center',
-    padding: '200px 0',
+    padding: '200px',
   },
   ({ theme }) => {
     return {
