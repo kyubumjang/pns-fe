@@ -4,7 +4,7 @@ interface Props {
   children: string | JSX.Element;
   tag?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p' | 'span';
   fontSize?: string;
-  fontWeight?: string;
+  fontWeight?: string | number;
   color?: string;
 }
 
@@ -78,7 +78,7 @@ const Text = ({ children, tag, fontSize, fontWeight, color }: Props) => {
         color: rgb(51, 61, 75);
       `;
     return css`
-      font-size: ${fontSize}px;
+      font-size: ${fontSize};
       font-weight: ${fontWeight};
       color: ${color};
     `;
