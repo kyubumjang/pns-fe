@@ -28,7 +28,7 @@ export const FooterMenuContainer = styled.div`
   display: flex;
   width: 100%;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   padding-bottom: 50px;
 `;
