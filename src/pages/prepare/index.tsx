@@ -1,12 +1,7 @@
-import Link from 'next/link';
+import PrepareTemplate from 'templates/prepare/Prepare';
 
 const Prepare = () => {
-  return (
-    <>
-      <div>페이지 준비중입니다.</div>
-      <Link href='/'>홈으로 이동하기</Link>
-    </>
-  );
+  return <PrepareTemplate />;
 };
 
 export default Prepare;

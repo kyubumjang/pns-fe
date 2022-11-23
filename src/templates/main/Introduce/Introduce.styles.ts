@@ -1,7 +1,7 @@
 import { keyframes } from '@emotion/react';
 import styled from '@emotion/styled';
 
-export const IntroduceContainer = styled('section')({
+export const IntroduceContainer = styled('div')({
   display: 'flex',
   flexDirection: 'column',
   position: 'relative',
@@ -58,30 +58,6 @@ export const SloganBtnContainer = styled('button')`
   flex-direction: row;
   margin-top: 50px;
   gap: 4px;
-`;
-
-export const LinkContentWrapper = styled('div')`
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  line-height: 26px;
-  text-align: center;
-  vertical-align: middle;
-  font-weight: 600;
-  color: ${(props) => props.theme.color.white};
-  background-image: none;
-  background-color: ${(props) => props.theme.color.greyOpacity800};
-  padding: 11px 22px;
-  border: 0 solid transparent;
-  border-radius: 8px;
-  transition: background 0.2s ease, color 0.1s ease;
-  white-space: nowrap;
-  z-index: 1;
-  gap: 8px;
-  &:hover {
-    background-color: ${(props) => props.theme.color.grey700};
-  }
 `;
 
 export const ArrowDownBtn = styled('button')`

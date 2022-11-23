@@ -4,11 +4,12 @@ import { AiFillTool, AiFillShopping } from 'react-icons/ai';
 import { SlArrowDown } from 'react-icons/sl';
 
 import Text from '@/components/Text/Text';
+import { LinkContentWrapper } from '@/styles/common';
 
 import mainBg from '../../../../public/assets/images/main.png';
 import * as S from './Introduce.styles';
 
-const Introduce = () => {
+const IntroduceTemplate = () => {
   return (
     <S.IntroduceContainer>
       <S.SloganContainer>
@@ -27,16 +28,16 @@ const Introduce = () => {
             <Text tag='h1'>P&S에서 쉽고 빠르게</Text>
             <S.SloganBtnContainer>
               <Link href='/prepare'>
-                <S.LinkContentWrapper>
+                <LinkContentWrapper>
                   <AiFillShopping />
                   주문하기
-                </S.LinkContentWrapper>
+                </LinkContentWrapper>
               </Link>
               <Link href='/prepare'>
-                <S.LinkContentWrapper>
+                <LinkContentWrapper>
                   <AiFillTool />
                   대한테크
-                </S.LinkContentWrapper>
+                </LinkContentWrapper>
               </Link>
             </S.SloganBtnContainer>
           </S.SloganInnerContainer>
@@ -59,4 +60,4 @@ const Introduce = () => {
   );
 };
 
-export default Introduce;
+export default IntroduceTemplate;
