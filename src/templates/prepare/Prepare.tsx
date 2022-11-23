@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { AiFillHome } from 'react-icons/ai';
 
-import Text from '@/components/Text/Text';
+import Text from '@/components/common/Text/Text';
 import { LinkContentWrapper } from '@/styles/common';
 
 import * as S from './Prepare.styles';
