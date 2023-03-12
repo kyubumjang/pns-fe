@@ -27,6 +27,7 @@ const Text = ({ children, tag, fontSize, fontWeight, color }: Props) => {
         font-weight: 700;
         line-height: 1.4;
         color: rgb(0, 0, 0);
+        white-space: pre-line;
       `;
     if (tag === 'h2')
       return css`
@@ -34,13 +35,15 @@ const Text = ({ children, tag, fontSize, fontWeight, color }: Props) => {
         font-weight: 700;
         line-height: 1.4;
         color: #191f28;
+        white-space: pre-line;
       `;
     if (tag === 'h3')
       return css`
-        font-size: 40px;
+        font-size: 28px;
         font-weight: 700;
         line-height: 1.4;
-        color: rgb(51, 61, 75);
+        color: #3c5fa6;
+        white-space: pre-line;
       `;
     if (tag === 'h4')
       return css`
@@ -48,6 +51,7 @@ const Text = ({ children, tag, fontSize, fontWeight, color }: Props) => {
         font-weight: 600;
         line-height: 1.5;
         color: rgb(51, 61, 75);
+        white-space: pre-line;
       `;
     if (tag === 'h5')
       return css`
@@ -55,6 +59,7 @@ const Text = ({ children, tag, fontSize, fontWeight, color }: Props) => {
         font-weight: 600;
         line-height: 1.5;
         color: rgb(107, 118, 132);
+        white-space: pre-line;
       `;
     if (tag === 'h6')
       return css`
@@ -62,6 +67,7 @@ const Text = ({ children, tag, fontSize, fontWeight, color }: Props) => {
         font-weight: 600;
         line-height: 1.5;
         color: #333d4b;
+        white-space: pre-line;
       `;
     if (tag === 'p')
       return css`
@@ -69,6 +75,7 @@ const Text = ({ children, tag, fontSize, fontWeight, color }: Props) => {
         font-weight: 700;
         line-height: 1.6;
         color: #191f28;
+        white-space: pre-line;
       `;
     if (tag === 'span')
       return css`
@@ -76,11 +83,13 @@ const Text = ({ children, tag, fontSize, fontWeight, color }: Props) => {
         font-weight: 600;
         line-height: 1.5;
         color: rgb(51, 61, 75);
+        white-space: pre-line;
       `;
     return css`
       font-size: ${fontSize};
       font-weight: ${fontWeight};
       color: ${color};
+      white-space: pre-line;
     `;
   };
 

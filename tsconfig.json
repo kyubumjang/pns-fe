@@ -25,6 +25,7 @@
       "@/layouts/*": ["layouts/*"],
       "@/pages/*": ["pages/*"],
       "@/styles/*": ["styles/*"],
+      "@/templates/*": ["templates/*"],
       "@/types/*": ["types/*"]
     }
   },

@@ -16,6 +16,7 @@ export const SloganContainer = styled('div')({
 });
 
 export const ImgBgWrapper = styled('div')({
+  position: 'relative',
   width: 'auto',
   height: '100vh',
   zIndex: -1,

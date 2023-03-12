@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { AiFillTool, AiFillShopping } from 'react-icons/ai';
 import { SlArrowDown } from 'react-icons/sl';
 
-import Text from '@/components/Text/Text';
+import Text from '@/components/common/Text/Text';
 import { LinkContentWrapper } from '@/styles/common';
 
 import mainBg from '../../../../public/assets/images/main.png';

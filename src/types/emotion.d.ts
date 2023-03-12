@@ -123,6 +123,22 @@ declare module '@emotion/react' {
       darkLayeredBackground: string;
       floatBackground: string;
       darkFloatBackground: string;
+      primary: {
+        lavender: string;
+        shipCove: string;
+        blue: string;
+        gulfBlue: string;
+        blueCharcoal: string;
+        contrastText: string;
+      };
+      secondary: {
+        shipGray: string;
+        holly: string;
+        yellow: string;
+        donkeyBrown: string;
+        codGray: string;
+        contrastText: string;
+      };
     };
     fontSize: {
       xl: string;

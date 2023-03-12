@@ -11,7 +11,9 @@ const Header = () => {
       <S.InnerContainer>
         <S.LogoWrapper>
           <Link href='/'>
-            <Logo />
+            <a>
+              <Logo />
+            </a>
           </Link>
         </S.LogoWrapper>
         <S.MenuContainer>
