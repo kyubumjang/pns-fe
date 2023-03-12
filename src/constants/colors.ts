@@ -124,6 +124,22 @@ const colors = {
   darkLayeredBackground: inverseGrey50,
   floatBackground: white,
   darkFloatBackground: inverseGrey100,
+  primary: {
+    lavender: '#A0B3D9',
+    shipCove: '#698EBF',
+    blue: '#3C5FA6',
+    gulfBlue: '#021859',
+    blueCharcoal: '#010326',
+    contrastText: '#fff',
+  },
+  secondary: {
+    shipGray: '#3C3940',
+    holly: '#01261C',
+    yellow: '#F2BF80',
+    donkeyBrown: '#A69580',
+    codGray: '#0D0D0D',
+    contrastText: '#fff',
+  },
 };
 
 export default colors;
