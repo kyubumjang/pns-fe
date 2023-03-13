@@ -12,7 +12,7 @@ const PrepareTemplate = () => {
       <S.PrepareInfoContainer>
         <S.PrepareTitle>
           <Text tag='h3'>페이지를 준비하고 있어요</Text>
-          <Text tag='h3'>빠르게 이용하실 수 있도록 노력할게요</Text>
+          <Text tag='h3'>빠르게 이용하실 수 있도록 준비할게요</Text>
         </S.PrepareTitle>
         <S.LinkWrapper>
           <Link href='/'>
