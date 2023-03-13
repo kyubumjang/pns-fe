@@ -1,5 +1,12 @@
+import { TeamIntroduce } from '@/components/team/TeamIntroduce';
+import { Container } from '@/styles/common';
+
 const Team = () => {
-  return <div>회사 소개</div>;
+  return (
+    <Container>
+      <TeamIntroduce />
+    </Container>
+  );
 };
 
 export default Team;
