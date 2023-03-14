@@ -7,5 +7,5 @@ export const Container = styled('div')({
   alignItems: 'center',
   justifyContent: 'center',
   height: '1000px',
-  backgroundColor: theme.color.whiteOpacity100,
+  backgroundColor: theme.color.white,
 });
