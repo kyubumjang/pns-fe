@@ -1,5 +1,12 @@
+import { ProductIntroduce } from '@/components/product/ProductIntroduce';
+import { Container } from '@/styles/common';
+
 const Product = () => {
-  return <div>제품 소개</div>;
+  return (
+    <Container>
+      <ProductIntroduce />
+    </Container>
+  );
 };
 
 export default Product;
