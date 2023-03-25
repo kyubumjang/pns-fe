@@ -1,5 +1,11 @@
+import { Container } from '@/styles/common';
+
 const Support = () => {
-  return <div>고객센터</div>;
+  return (
+    <Container>
+      <Support />
+    </Container>
+  );
 };
 
 export default Support;
