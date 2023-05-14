@@ -13,10 +13,14 @@ const OrderStatus = () => {
         주문부터 일정까지 똑똑하게'
         />
         <S.InfoDescriptionWrapper>
-          <InfoDescription
+          {/* <InfoDescription
             description={`P&S에서 콜렛을 주문해 보세요.
             원하는 콜렛을 주문 제작은 기본,
             일자별 주문 현황을 확인할 수 있어요.`}
+          /> */}
+          <InfoDescription
+            description={`P&S에서 콜렛을 주문해 보세요.
+            원하는 콜렛을 빠르게 제작하여 보내드릴게요.`}
           />
         </S.InfoDescriptionWrapper>
       </S.Wrapper>

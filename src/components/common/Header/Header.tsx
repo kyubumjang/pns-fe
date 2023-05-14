@@ -24,7 +24,7 @@ const Header = () => {
             <S.MenuItem>
               <Link href='/product'>제품 소개</Link>
             </S.MenuItem>
-            <S.MenuItem>
+            {/* <S.MenuItem>
               <Link href='/certified'>인증</Link>
             </S.MenuItem>
             <S.MenuItem>
@@ -32,17 +32,17 @@ const Header = () => {
             </S.MenuItem>
             <S.MenuItem>
               <Link href='/faq'>자주 묻는 질문</Link>
-            </S.MenuItem>
+            </S.MenuItem> */}
             <S.MenuItem>
-              <S.MenuIconWrapper>
+              {/* <S.MenuIconWrapper>
                 <S.MenuIconBtn>
                   <CgMenuGridO size='16px' />
                 </S.MenuIconBtn>
-              </S.MenuIconWrapper>
+              </S.MenuIconWrapper> */}
             </S.MenuItem>
-            <S.SignInBtn>
+            {/* <S.SignInBtn>
               <Link href='/signin'>로그인</Link>
-            </S.SignInBtn>
+            </S.SignInBtn> */}
           </S.MenuItems>
         </S.MenuContainer>
       </S.InnerContainer>

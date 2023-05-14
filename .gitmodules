@@ -1,0 +1,6 @@
+[submodule "tlc-ui"]
+	path = tlc-ui
+	url = https://github.com/kyubumjang/tlc-ui
+[submodule "src/types/tlc-type"]
+	path = src/types/tlc-type
+	url = https://github.com/kyubumjang/tlc-type

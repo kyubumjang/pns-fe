@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import Link from 'next/link';
-import { AiFillTool, AiFillShopping } from 'react-icons/ai';
-import { SlArrowDown } from 'react-icons/sl';
+// import Link from 'next/link';
+// import { AiFillTool, AiFillShopping } from 'react-icons/ai';
+// import { SlArrowDown } from 'react-icons/sl';
 
 import Text from '@/components/common/Text/Text';
-import { LinkContentWrapper } from '@/styles/common';
+// import { LinkContentWrapper } from '@/styles/common';
 
 import mainBg from '../../../../public/assets/images/main.png';
 import * as S from './Introduce.styles';
@@ -26,7 +26,7 @@ const IntroduceTemplate = () => {
           <S.SloganInnerContainer>
             <Text tag='h1'>콜렛 제작</Text>
             <Text tag='h1'>P&S에서 쉽고 빠르게</Text>
-            <S.SloganBtnContainer>
+            {/* <S.SloganBtnContainer>
               <Link href='/prepare'>
                 <LinkContentWrapper>
                   <AiFillShopping />
@@ -39,13 +39,13 @@ const IntroduceTemplate = () => {
                   대한테크
                 </LinkContentWrapper>
               </Link>
-            </S.SloganBtnContainer>
+            </S.SloganBtnContainer> */}
           </S.SloganInnerContainer>
-          <S.ArrowDownBtn>
+          {/* <S.ArrowDownBtn>
             <S.BtnWrapper>
               <SlArrowDown size='40px' />
             </S.BtnWrapper>
-          </S.ArrowDownBtn>
+          </S.ArrowDownBtn> */}
         </S.SloganContentContainer>
       </S.SloganContainer>
       <S.DescriptionContainer>

@@ -7,9 +7,9 @@ const Investment = () => {
     <S.Container>
       <Text tag='h2'>최고의 거래처들과 함께합니다.</Text>
       <S.InvestmentWrapper>
-        <Text tag='h4'>RFSemi</Text>
+        {/* <Text tag='h4'>RFSemi</Text>
         <Text tag='h4'>삼성전기</Text>
-        <Text tag='h4'>AUK</Text>
+        <Text tag='h4'>AUK</Text> */}
       </S.InvestmentWrapper>
     </S.Container>
   );
