@@ -1,10 +1,15 @@
 import type { NextPage } from 'next';
 
+import { Container } from '@/styles/common';
+import Introduce from '@/templates/main/Introduce/Introduce';
+import OrderStatus from '@/templates/main/OrderStatus/OrderStatus';
+
 const Home: NextPage = () => {
   return (
-    <div>
-      <h1>Part and Solution</h1>
-    </div>
+    <Container>
+      <Introduce />
+      <OrderStatus />
+    </Container>
   );
 };
 

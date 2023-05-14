@@ -16,14 +16,16 @@
     "incremental": true,
     "baseUrl": "./src",
     "paths": {
-      "@/api/*": ["components/*"],
+      "@/api/*": ["api/*"],
       "@/assets/*": ["assets/*"],
       "@/components/*": ["components/*"],
       "@/constants/*": ["constants/*"],
       "@/hooks/*": ["hooks/*"],
       "@/interfaces/*": ["interfaces/*"],
+      "@/layouts/*": ["layouts/*"],
       "@/pages/*": ["pages/*"],
       "@/styles/*": ["styles/*"],
+      "@/templates/*": ["templates/*"],
       "@/types/*": ["types/*"]
     }
   },
