@@ -33,7 +33,7 @@ const IntroduceTemplate = () => {
                   주문하기
                 </LinkContentWrapper>
               </Link>
-              <Link href='/prepare'>
+              <Link href='https://daehan-tech.vercel.app/'>
                 <LinkContentWrapper>
                   <AiFillTool />
                   대한테크
