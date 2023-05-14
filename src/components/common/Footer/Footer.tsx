@@ -32,7 +32,7 @@ const Footer = () => {
               <Link href='/team'>회사 소개</Link>
             </S.FooterMenuItem>
             <S.FooterMenuItem>
-              <Link href='/prepare'>대한테크</Link>
+              <Link href='https://daehan-tech.vercel.app/'>대한테크</Link>
             </S.FooterMenuItem>
             <S.FooterMenuItem>
               <Link href='/prepare'>채용</Link>
@@ -56,9 +56,9 @@ const Footer = () => {
             <li>
               <S.FooterMenuItemTitle>고객센터</S.FooterMenuItemTitle>
             </li>
-            <S.FooterMenuItem>
-              <Link href='tel:031-605-5890'>전화: 031-605-5890</Link>
-            </S.FooterMenuItem>
+            {/* <S.FooterMenuItem>
+              <Link href='tel:010-605-5890'>전화: 031-605-5890</Link>
+            </S.FooterMenuItem> */}
             <S.FooterMenuItem>
               <Link href='mailto:jkb2221@gmail.com'>
                 이메일: jkb2221@gmail.com
@@ -73,7 +73,7 @@ const Footer = () => {
           <strong>(주)피앤에스</strong>
           <br />
           {/* FIXME: 사용자 등록 번호: 수정 필요 */}
-          사업자 등록 번호: 123-456-7890 | 대표: 장미나
+          사업자 등록 번호: xxx-xx-xxxxx | 대표: 장미나
           <br />
           {/* FIXME: 호스팅 서비스: 수정 필요 */}
           호스팅 서비스: 콜렛 제작 | 신고 번호: 110
