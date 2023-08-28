@@ -4,7 +4,7 @@
 
 ### 소개
 
-부모님이 운영하는 회사 홈페이지이
+부모님이 운영하는 회사 홈페이지
 
 ### 개발 일정
 
@@ -46,6 +46,15 @@
     <img src="https://img.shields.io/badge/Notion-%23000000.svg?style=flat-square&logo=notion&logoColor=white" />
     <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=slack&logoColor=white" />
 </div>
+
+### 주요 UI
+
+#### 홈페이지
+
+<img width="1440" alt="스크린샷 2023-08-29 오전 8 30 18" src="https://github.com/kyubumjang/pns-fe/assets/33307948/5fd205f5-8617-40c2-8823-794ae575864a">
+
+#### 회사 소개 페이지
+<img width="1440" alt="스크린샷 2023-08-29 오전 8 32 38" src="https://github.com/kyubumjang/pns-fe/assets/33307948/8aaadcfc-aecb-4536-a720-23b799e990f1">
 
 #### 주요 라이브러리
 
